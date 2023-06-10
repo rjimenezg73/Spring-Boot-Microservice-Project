@@ -18,4 +18,40 @@ public class Coche {
    public int getRuedas(){
       return this.ruedas;
    }
+
+   public void setRuedas(int ruedas) {
+      this.ruedas = ruedas;
+   }
+
+   public int getLargo() {
+      return largo;
+   }
+
+   public void setLargo(int largo) {
+      this.largo = largo;
+   }
+
+   public int getAncho() {
+      return ancho;
+   }
+
+   public void setAncho(int ancho) {
+      this.ancho = ancho;
+   }
+
+   public int getMotor() {
+      return motor;
+   }
+
+   public void setMotor(int motor) {
+      this.motor = motor;
+   }
+
+   public int getPeso() {
+      return peso;
+   }
+
+   public void setPeso(int peso) {
+      this.peso = peso;
+   }
 }

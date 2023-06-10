@@ -7,3 +7,4 @@ public class Uso_Coche {
       System.out.println("Éste coche tiene " + renault.getRuedas() + " ruedas.");
    }
 }
+ 
