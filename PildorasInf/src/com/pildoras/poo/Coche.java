@@ -6,6 +6,9 @@ public class Coche {
    private int ancho;
    private int motor;
    private int peso;
+   String color;
+   int peso_total;
+   boolean asientos_cuero, climatizador;
 
    public Coche(){
       this.ruedas = 4;
@@ -53,5 +56,13 @@ public class Coche {
 
    public void setPeso(int peso) {
       this.peso = peso;
+   }
+
+   public void setColor(String color){
+      this.color = color;
+   }
+
+   public String getColor(){
+      return this.color;
    }
 }

@@ -5,6 +5,7 @@ public class Uso_Coche {
       Coche renault = new Coche();
       //renault.ruedas = 3;
       System.out.println("Éste coche tiene " + renault.getRuedas() + " ruedas.");
+      renault.setColor("Blanco");
+      System.out.println("El color del coche es " + renault.getColor());
    }
 }
- 
