@@ -6,9 +6,9 @@ public class Coche {
    private int ancho;
    private int motor;
    private int peso;
-   String color;
-   int peso_total;
-   boolean asientos_cuero, climatizador;
+   private String color;
+   private int peso_total;
+   private boolean asientos_cuero, climatizador;
 
    public Coche(){
       this.ruedas = 4;
