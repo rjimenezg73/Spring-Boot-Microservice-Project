@@ -1,6 +1,7 @@
 package com.pildoras.graficos;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class CreandoMarcos {
    public static void main(String[] args) {
@@ -13,6 +14,11 @@ public class CreandoMarcos {
 
 class MiMarco extends JFrame{
    public MiMarco(int w, int h){
-      setSize(w, h);
+      //setSize(w, h);
+      //setLocation(w-300,h-200);
+      setBounds(w-300, h-200, w, h);
+      //setResizable(false);
+      //setExtendedState(Frame.MAXIMIZED_BOTH);
+      setTitle("Utilizando Frames");
    }
 }
