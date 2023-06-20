@@ -19,6 +19,6 @@ class MiMarco extends JFrame{
       setBounds(w-300, h-200, w, h);
       //setResizable(false);
       //setExtendedState(Frame.MAXIMIZED_BOTH);
-      setTitle("Utilizando Frames");
+      setTitle("Utilizando Frames ");
    }
 }
