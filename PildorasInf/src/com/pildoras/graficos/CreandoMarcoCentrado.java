@@ -20,5 +20,7 @@ class MarcoCentrado extends JFrame{
       setSize(anchoPantalla/2,alturaPantalla/2);
       setLocation(anchoPantalla/4,alturaPantalla/4);
       setTitle("Marco Centrado");
+      Image miIcono = miPantalla.getImage("C:\\DesarrolloWeb\\Spring-Boot-Microservice-Project\\PildorasInf\\src\\com\\pildoras\\graficos\\icono.png");
+      setIconImage(miIcono);
    }
 }
